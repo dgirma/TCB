@@ -1,0 +1,124 @@
+.spotTxt {font-size:10px; color:#19AA19; padding:10px;
+text-align:justify; font-weight:bold;}
+.newsTxt {font-size:10px; color:#19AA19; padding:5px;
+text-align:justify; font-weight:bold;}
+.eNewsTxt {font-size:10px; color:red;
+text-align:justify; font-weight:bold;}
+.title {font-size:110%; color:#19AA19;}
+p.title {font-size:170%;}
+.h1 {font-size:170%; color:#19AA19; }
+h1 {font-size:170%; color:#19AA19; font-weight:normal; margin: 1em 0; }
+.h2 {font-size:110%; color:#19AA19; font-weight:bold;}
+h2 {font-size:110%; color:#19AA19; font-weight:bold; margin: 1em 0;}
+h3 {font-size:110%; color:#000000; font-weight:bold; margin: 1em 0;}
+.important {color:#19AA19; font-weight:bold}
+.nav2_on {font-size:10px; color:#19AA19;  font-weight:bold;}
+.nav2_on:active {font-size:10px; color:#19AA19; font-weight:bold;}
+.nav2_on:hover {font-size:10px; color:#19AA19; font-weight:bold;}
+.mainImage {background-image:url('/web/20060426054057im_/http://www.ertos.nicta.com.au/images/mainimage_03.jpg')}
+.form {color:#000000; font-family:verdana, "sans serif", arial;
+font-size:100%; border-style:solid; border-width:1pt;
+border-color:#787878; background-color:#FFFFFF;}
+.buttonStyle2 {background-color:#9BB9DE; border-color:#2D4186;
+border-style:solid; border-width:1pt; color:#0D1D55;
+font-family:"trebuchet ms", verdana, "ms sans serif"; font-weight:bold;
+padding-top:2px; padding-bottom:0px; font-size:11px;
+text-transform:uppercase;}
+
+table.toptable { text-align:center }
+pre { font-family:"courier new", courier, monospace; font-size:100% }
+
+body#printed { margin: 10px }
+
+
+
+.foot3 {font-size:100%; color:#559BBD; text-align:left;}
+.foot3 a {font-size:100%; color:#559BBD; text-decoration:none;}
+.ertostxt {font-size:100%; color:#000000; text-align:justify}
+.txt {font-size: 70%; color:#000000; text-align:justify}
+
+
+/* Software pages stuff */
+div.software { font-size: 120%; text-align:left; }
+
+
+ul.inline
+{ 
+padding: 0;
+margin: 0;
+list-style-type: none;
+}
+
+
+/*ul.inline li { 
+ display: inline;
+ padding-right: 0.75em;
+ padding-left: 0.75em;
+ }
+*/
+
+div.software dt { color: green; }
+div.software dt:after { content: ":"; }
+
+div.software h1 { padding: 0; margin: 0; padding-bottom: 0.5ex; }
+div.software p { padding: 0; margin: 0; padding-bottom: 0.5ex;}
+div.software dl { padding: 0; margin: 0; padding-bottom: 0.5ex; padding-top: 0.5ex; }
+div.software table { padding: 0; margin: 0; padding-bottom: 0.5ex;}
+
+table.mdTable { background-color:#d1ffd9; padding: 0.7em; }
+
+div.software ul  { 
+  list-style-type: none;
+  padding:0;
+  margin:0;
+
+ }
+
+div.software ul li:before { 
+  content:"\00BB \0020"
+ }
+
+div.section h1 { 
+  font-size: 130%; color: black; padding-top: 1ex;
+}
+
+div.section h2 { 
+  font-size: 110%; color: black; padding-top: 1ex;
+}
+
+div.section p { 
+  padding-left: 1em;
+  padding-top: 0.5ex;
+  padding-bottom: 0.5ex;
+}
+
+pre.literal-block { 
+  padding-left: 2em;
+ }
+
+a.toc-backref { 
+color: black;
+}
+
+img.mugshot { float: right; border-width:0pt;}
+/*
+     FILE ARCHIVED ON 05:40:57 Apr 26, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:11:19 Aug 24, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots.policy: 0.191
+  CDXLines.iter: 22.314 (3)
+  LoadShardBlock: 95.722 (3)
+  captures_list: 122.685
+  PetaboxLoader3.datanode: 269.619 (4)
+  exclusion.robots: 0.205
+  load_resource: 338.977
+  esindex: 0.014
+  PetaboxLoader3.resolve: 135.507 (2)
+  RedisCDXSource: 0.68
+*/

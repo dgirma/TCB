@@ -1,0 +1,1 @@
+_gfp_s_({"_cookies_":[{"_value_":"ID=c59e52cf3d2747ea-22156b7b6bca0054:T=1630654225:RT=1630654225:S=ALNI_MaCIQc3AOmkvqerY9EIdFSU1B09ng","_expires_":1664350225,"_path_":"/","_domain_":"krivalar.com"}]});

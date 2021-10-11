@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!-- saved from url=(0028)http://www.microkernel.info/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Microkernels - The component-based operating systems</title>
+	
+	<link rel="stylesheet" href="./Microkernels - The component-based operating systems_files/styles.css">
+	<link rel="icon" type="image/png" href="http://www.microkernel.info/ukerman.png">
+</head>
+
+<body>
+
+	<script async="" src="./Microkernels - The component-based operating systems_files/analytics.js.download"></script><script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75319557-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<div class="wrapper">
+		<div class="logotext">
+		    <h1><a href="http://microkernel.info/"><span class="micro">μ</span>–kernel<img src="./Microkernels - The component-based operating systems_files/info.png"></a></h1>
+		</div>
+
+		<div class="intro">
+		<p>Microkernels are operating systems that
+outsource the traditional operating system functionality to ordinary user
+processes while providing them with mechanisms requisite for implementing it.
+Microkernel-based operating systems come in many different flavours, each
+having a distinctive set of goals, features and approaches.  Some of the most
+often cited reasons for structuring the system as a microkernel is flexibility,
+security and fault tolerance. Many microkernels can take on the role of a
+hypervisor too. Microkernels and their user environments are most often
+implemented in the C or C++ programming languages with a little bit of
+assembly, but other implementation languages are possible too.  In fact, each
+component of a microkernel-based system can be implemented in a different
+programming language.</p>
+		<p>Here is a list of active free, open source
+microkernel projects. If your project is missing or this page needs fixing, please <a href="https://github.com/jermar/microkernel.info/compare">create a pull request</a>!</p>
+
+		</div>
+		
+	<div class="separator"></div>		
+
+		<div class="projects">
+
+			<div class="project escape">
+				<img src="./Microkernels - The component-based operating systems_files/escape.png">
+				<div class="desc">
+					<h2>Escape</h2>
+					<p>A UNIX-like microkernel operating system, that runs on x86, x86_64, ECO32 and MMIX. It is implemented from scratch and uses nearly no third-party components. To fit nicely into the UNIX philosophy, Escape uses a virtual file system to provide drivers and services. Both can present themselves as a file system or file to the user. (<a href="https://github.com/Nils-TUD/Escape">github.com/Nils-TUD/Escape</a>)</p>
+				</div>
+			</div>
+
+			<div class="project f9">
+				<img src="./Microkernels - The component-based operating systems_files/f9.png">
+				<div class="desc">
+					<h2>F9</h2>
+					<p>An experimental microkernel used to construct flexible real-time and embedded systems for ARM Cortex-M series microprocessors with power efficiency and security in mind. (<a href="https://github.com/f9micro/">github.com/f9micro</a>)</p>
+				</div>
+			</div>
+
+			<div class="project fuchsia">
+				<img src="./Microkernels - The component-based operating systems_files/fuchsia.svg">
+				<div class="desc">
+					<h2>Fuchsia</h2>
+					<p>Fuchsia is a capability-based operating system currently being developed by Google. Fuchsia is based on a Zircon kernel that applies many of the concepts popularized by microkernels, but is described as a pragmatic, message-passing kernel. (<a href="https://fuchsia.dev/">fuchsia.dev</a>)</p>
+				</div>
+			</div>
+
+			<div class="project genode">
+				<img src="./Microkernels - The component-based operating systems_files/genode.png">
+				<div class="desc">
+					<h2>Genode</h2>
+					<p>A tool kit for building highly secure special-purpose operating systems. It scales from embedded systems with as little as 4 MB of memory to highly dynamic general-purpose workloads. (<a href="http://genode.org/">genode.org</a>)</p>
+				</div>
+			</div>
+
+			<div class="project helenos">
+				<img src="./Microkernels - The component-based operating systems_files/helenos.svg">
+				<div class="desc">
+					<h2>HelenOS</h2>
+					<p>A portable microkernel-based multiserver operating system designed and implemented from scratch. It decomposes key operating system functionality such as file systems, networking, device drivers and graphical user interface into a collection of fine-grained user space components that interact with each other via message passing. (<a href="http://helenos.org/">helenos.org</a>)</p>
+				</div>
+			</div>
+
+			<div class="project hurd">
+				<img src="./Microkernels - The component-based operating systems_files/hurd.svg">
+				<div class="desc">
+					<h2>GNU Hurd</h2>
+					<p>The GNU project's replacement for the Unix kernel. Notable features include the distributed virtual filesystem that is used as namespace for system services, high degree of application compatibility by shipping the GNU C library, and the goal of being a general purpose operating system. (<a href="http://hurd.gnu.org/">hurd.gnu.org</a>)</p>
+				</div>
+			</div>
+
+			<div class="project l4re">
+				<img src="./Microkernels - The component-based operating systems_files/fiasco.png">
+				<div class="desc">
+					<h2>L4Re</h2>
+					<p>Forms the foundation for application development and interaction on the Fiasco.OC microkernel. It consists of basic services such as program loading and memory management. L4Re also provides the environment for applications, including libraries and process local functionality. (<a href="http://l4re.org/">l4re.org</a>)</p>
+				</div>
+			</div>
+
+			<div class="project m3">
+				<img src="./Microkernels - The component-based operating systems_files/m3.svg">
+				<div class="desc">
+					<h2>M³</h2>
+					<p>A <u>m</u>icrokernel-based syste<u>m</u> for heterogeneous <u>m</u>anycores, that is developed as a hardware/OS co-design at the TU Dresden. It aims to support arbitrary cores (general purpose cores, DSPs, FPGAs, ASICs, ...) as first-class citizens. This is achieved by abstracting the heterogeneity of the cores via a new hardware component per core, called data transfer unit. (<a href="https://github.com/TUD-OS/M3">github.com/TUD-OS/M3</a>)</p>
+				</div>
+			</div>
+
+			<div class="project minix3">
+				<img src="./Microkernels - The component-based operating systems_files/minix3.jpg">
+				<div class="desc">
+					<h2>MINIX 3</h2>
+					<p>A free, open-source, operating system designed to be highly reliable, flexible, and secure. It is based on a tiny microkernel running in kernel mode with the rest of the operating system running as a number of isolated, protected, processes in user mode. (<a href="http://minix3.org/">minix3.org</a>)</p>
+				</div>
+			</div>
+
+			<div class="project muen">
+				<img src="./Microkernels - The component-based operating systems_files/muen.svg">
+				<div class="desc">
+					<h2>The Muen Separation Kernel</h2>
+					<p>The world’s first Open Source microkernel that has been formally proven to contain no runtime errors at the source code level. It is developed in Switzerland by the Institute for Networked Solutions (INS) at the University of Applied Sciences Rapperswil (HSR). (<a href="https://muen.sk/">muen.sk</a>)</p>
+				</div>
+			</div>
+
+			<div class="project nova">
+				<img src="./Microkernels - The component-based operating systems_files/nova.png">
+				<div class="desc">
+					<h2>NOVA Microhypervisor</h2>
+					<p>A research project aimed at constructing a secure virtualization environment with a small trusted computing base. NOVA consists of a microhypervisor and an unprivileged multi-server user environment running on top of it. (<a href="http://hypervisor.org/">hypervisor.org</a>)</p>
+				</div>
+			</div>
+
+			<div class="project redox">
+				<img src="./Microkernels - The component-based operating systems_files/redox.svg">
+				<div class="desc">
+					<h2>Redox</h2>
+					<p>A Unix-like operating system written in Rust, aiming to bring the innovations of Rust to a modern microkernel and full set of applications. Redox isn't afraid of dropping the bad parts of POSIX, while preserving modest Linux API compatibility. (<a href="http://redox-os.org/">redox-os.org</a>)</p>
+				</div>
+			</div>
+
+			<div class="project robigalia">
+				<img src="./Microkernels - The component-based operating systems_files/robigalia.svg">
+				<div class="desc">
+					<h2>Robigalia</h2>
+					<p>An operating system project aiming to build a robust Rust ecosystem around the seL4 microkernel and to create a highly reliable persistent capability OS, continuing the heritage of EROS and Coyotos, using Rust. (<a href="https://robigalia.org/">robigalia.org</a>)</p>
+				</div>
+			</div>
+
+			<div class="project sel4">
+				<img src="./Microkernels - The component-based operating systems_files/sel4.svg">
+				<div class="desc">
+					<h2>seL4</h2>
+					<p>A high-assurance, high-performance microkernel developed, maintained and formally verified by NICTA and owned by General Dynamics C4 Systems. It is a member of the L4 family of microkernels, and is the world's most advanced, highest-assured operating-system microkernel. (<a href="http://sel4.systems/">sel4.systems</a>)</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+
+
+
+</body></html>

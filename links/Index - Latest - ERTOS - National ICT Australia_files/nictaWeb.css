@@ -1,0 +1,103 @@
+body {color: #000000; background-color:#FFFFFF; margin:0px; padding:0px; font-family:verdana, arial, sans-serif;}
+
+.search {border-style:solid; border-width:0pt; background-color:#D6EAF5; font-family:verdana, arial, sans-serif; font-size:65%; color:#333333;}
+
+.homeTxt {font-size:10px; color:#000000;}
+.txt {font-size:70%; color:#000000; text-align:justify;}
+.tableTxt {font-size:100%; color:#000000; text-align:justify;}
+.tableTxtNoJustify {font-size:100%; color:#000000;}
+	
+.breadcrumb {font-size:10px; color:#333333;}
+a.breadcrumb:link {font-size:10px; color:#333333; text-decoration:none;}
+a.breadcrumb:visited {font-size:10px; color:#333333; text-decoration:none;}
+a.breadcrumb:active {color:#FF6600; text-decoration:none;}
+a.breadcrumb:hover {color:#FF6600; text-decoration:none;}
+
+blockquote { font-family:verdana, arial, sans-serif;}
+blockquote div { font-family:verdana, arial, sans-serif;}
+blockquote p { font-family:verdana, arial, sans-serif;}
+
+
+.nav2 {font-size:10px; color:#333333; font-weight:bold;}
+a.nav2:link {font-size:10px; color:#333333; text-decoration:none;}
+a.nav2:visited {font-size:10px; color:#333333; text-decoration:none;}
+a.nav2:active {color:#0000ff; text-decoration:none;}
+a.nav2:hover {color:#0000ff; text-decoration:none;}
+
+.titleLink {font-size:110%; color:#0000ff; font-weight:bold;}
+a.titleLink:link {font-size:110%; color:#0000ff; text-decoration:none;}
+a.titleLink:visited {font-size:110%; color:#0000ff; text-decoration:none;}
+a.titleLink:active {color:#197e2c; text-decoration:none;}
+a.titleLink:hover {color:#197e2c; text-decoration:none;}
+
+.foot {font-size:60%; color:#487991; text-align:center;}
+a.foot:link {font-size:100%; color:#487991; text-decoration:none;}
+a.foot:visited {font-size:100%; color:#487991; text-decoration:none;}
+a.foot:active {color:#FF6600; text-decoration:none;}
+a.foot:hover {color:#FF6600; text-decoration:none;}
+
+.foot2 {font-size:60%; color:#559BBD; text-align:center;}
+a.foot2:link {font-size:100%; color:#559BBD; text-decoration:none;}
+a.foot2:visited {font-size:100%; color:#559BBD; text-decoration:none;}
+a.foot2:active {color:#FF6600; text-decoration:none;}
+a.foot2:hover {color:#FF6600; text-decoration:none;}
+
+ul {margin-left:24px; margin-top:10px;}
+tt, code {font-family:"courier new", courier, monospace; font-size:100%}
+
+.highlight {color:#000000; font-weight:bold;}
+.successTxt {font-size:70%; color:#CC0000;}
+.errorTxt {font-size:70%; color:#CC0000;}
+
+a:link {color:#0000ff; text-decoration:none;}
+a:visited {color:#0000ff; text-decoration:none;}
+a:hover {color:#197e2c; text-decoration:none;}
+a:active {color:#197e2c; text-decoration:none;}
+
+.form {color:#000000; font-family:verdana, arial, sans-serif; font-size:100%; border-style:solid; border-width:1pt; border-color:#787878; background-color:#FFFFFF;}
+.buttonStyle2 {background-color:#9BB9DE; border-color:#2D4186;
+border-style:solid; border-width:1pt; color:#0D1D55; font-family:"trebuchet ms", verdana, sans-serif; font-weight:bold; padding-top:2px; padding-bottom:0px; font-size:11px; text-transform:uppercase;}
+
+.titleOrange {font-size:170%; color:#FF6600;}
+.subtitleOrange {font-size:110%; color:#FF6600; font-weight:bold;}
+
+ .collapseBorder {
+   font-size:100%;
+   border-collapse:collapse;
+ }
+ 
+ /* cell border - to be used with collapseBorder above */
+ td.borderBlack {
+   
+   border:1px solid black;
+   padding:8px;
+ }
+ 
+ /* just an outside border on its own */
+ .tableBorder {
+   font-size:100%;
+   border:1px solid black;
+   padding:10px;
+ }
+
+/*
+     FILE ARCHIVED ON 05:42:54 Apr 26, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:11:19 Aug 24, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.174
+  exclusion.robots.policy: 0.163
+  esindex: 0.011
+  captures_list: 395.824
+  PetaboxLoader3.resolve: 337.148 (2)
+  load_resource: 134.375
+  LoadShardBlock: 351.754 (3)
+  CDXLines.iter: 19.69 (3)
+  PetaboxLoader3.datanode: 81.641 (4)
+  cdx.remote: 0.071
+*/
